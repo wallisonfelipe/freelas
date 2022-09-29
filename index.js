@@ -1,3 +1,6 @@
+let replaceAllInserter = require('string.prototype.replaceall');
+
+replaceAllInserter.shim();
 
 const WebSocket = require('ws')
 var ws = new WebSocket(' wss://ws.99freelas.com.br:3000/socket.io/?idPessoa=261357&userSessionId=A05D4F8AA396448786BDDEDD2184EA47&EIO=4&transport=websocket');

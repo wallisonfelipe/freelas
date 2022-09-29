@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "messaging-api-telegram": "^1.1.0",
+    "string.prototype.replaceall": "^1.0.6",
     "telegram-bot-api": "^2.0.1",
     "ws": "^8.9.0"
   }
