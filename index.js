@@ -31,7 +31,7 @@ registerWebsocket();
 
 function registerWebsocket() {
     ws = new WebSocket(' wss://ws.99freelas.com.br:3000/socket.io/?idPessoa=261357&userSessionId=A05D4F8AA396448786BDDEDD2184EA47&EIO=4&transport=websocket');
-
+    client.sendMessage("1068815207", "Script iniciado!");
     ws.onopen = function () {
         console.log('Conectado!');
         isOpen = true
